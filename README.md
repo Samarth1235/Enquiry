@@ -1,5 +1,23 @@
 # 📋 EnquiryCRM — Enquiry Management System
-A full-stack MERN application to manage client enquiries with role-based access control.
+📋 Enquiry Management System — MERN Stack
+
+A full-stack CRM web application to manage client enquiries efficiently.
+Built with MongoDB Atlas, Express.js, React.js, and Node.js.
+
+Features:
+- JWT Authentication with role-based access (Admin & Staff)
+- Add and manage client enquiries
+- Track follow-up history for each enquiry
+- Update enquiry status (New Lead, Follow Up, Interested, Passed, Rejected)
+- Admin can delete enquiries and manage users
+- Staff can add enquiries and follow-ups
+- Real-time dashboard with stats
+
+Tech Stack:
+- Frontend: React.js, Axios, CSS
+- Backend: Node.js, Express.js
+- Database: MongoDB Atlas
+- Auth: JWT + bcryptjs
 
 ---
 
